@@ -1,3 +1,14 @@
+<details><summary>Why machine learning?</summary>
+Easy softballs - push back on their answers regardless of what they say. 
+
+**What are some examples of business problems that ML is needed to solve?**
+
+**Small in house dataset and team of very strong SQL developers - why do we need machine learning in our company?**
+
+**With so much advancement in AI/ML, do you see a decline in companies’ needing SQL developers over the next five years along with a corresponding rise in ML engineers?
+</details> 
+
+
 <details><summary>Basics</summary>
 **We have a dataset if customer purchase data along with reviews, and we want to predict whether a customer will make a purchase next month. What type of problem/model should we be looking for?**
 - Classification 
