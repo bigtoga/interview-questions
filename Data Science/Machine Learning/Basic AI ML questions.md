@@ -17,8 +17,10 @@
    - Future stock / service price or rate
    - Predict rate (i.e. given call volume X with response rate Y, what would response rate be if call volume was Z?
    - Sales and marketing response rates / returns
+   - Predict probabilities of a customer defaulting on a loan (a.k.a. risk factor)
 - Image recognition
    - OCR
+   - Processing medical imagery (x-rays, scans) 
    - Digit recognition for hand written text
    - Converting old text into digital 
 - Text and speech analysis
