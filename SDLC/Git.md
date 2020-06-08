@@ -11,6 +11,9 @@
 </details>
 
 <details><summary>Intermediate </summary>
+**I accidentally made substantial changes to master. I don’t want to discard those changes and I don’t want to merge them yet into master. What next?
+- Typically you would stash your changes, checkout a new feature Branch, then apply the changes to your feature branch
+
 **When would `rebase` be appropriate?**
 - rebase and merge do the same thing (integrate changes from one branch to another) but just in different ways
 - How it works: `git rebase feature master` 
