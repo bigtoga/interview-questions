@@ -8,11 +8,22 @@
 ** What is the difference between `git fetch` and `git pull`?
 - `fetch` will download changes and update the .git folder but not apply any changes to your local working copy. `pull` is both a `fetch` followed by a `git merge` so it applies changes to your local repo
 
+**Two branches, develop and master. Two developers both work on the same file. Developer A creates a new branch then changes first line of code. Developer B creates a new branch and changes last line of code. Developer A wants to push changes to develop - will there be a conflict?**
+- No, because Develop B has not pushed 
+
+**Devs A and B work on different teams in different codebases, however they do have a shared “common code” set of libraries that both teams maintain. What is the best strategy for these teams to follow to reduce conflicts?**
+- Good communication, fetch and push early and often, write tests
 </details>
 
 <details><summary>Intermediate </summary>
-**I accidentally made substantial changes to master. I don’t want to discard those changes and I don’t want to merge them yet into master. What next?
+**I accidentally made substantial changes to master. I don’t want to discard those changes and I don’t want to merge them yet into master. What next?**
 - Typically you would stash your changes, checkout a new feature Branch, then apply the changes to your feature branch
+
+**I have two branches, develop and master. I create a local feature branch, do my development, and PR /merge to develop. How do I get the change into master?**
+- Cherry-pick 
+
+**When should a team consider squashing commits?**
+- When there is no value to a “chatty” commit history
 
 **When would `rebase` be appropriate?**
 - rebase and merge do the same thing (integrate changes from one branch to another) but just in different ways
