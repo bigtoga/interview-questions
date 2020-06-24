@@ -13,6 +13,9 @@
 
 **Devs A and B work on different teams in different codebases, however they do have a shared “common code” set of libraries that both teams maintain. What is the best strategy for these teams to follow to reduce conflicts?**
 - Good communication, fetch and push early and often, write tests
+
+**I want to contribute to an open source repository. How?
+- Generally speaking, (1) look for the repos instructions on how they like contributions, or (2) fork, change, create PR
 </details>
 
 <details><summary>Intermediate </summary>
