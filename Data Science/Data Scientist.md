@@ -27,12 +27,14 @@ Which characteristic makes fraud detection particularly difficult?
    - Fraud is relatively rare
    
 **When should I perform outlier detection **?
+- During EDA 
+- During model testing when you are getting unexpected results and have concerns about whether outliers are causing underfitting 
 
 **What are some of the best strategies you have used for outlier detection?**
 
-**Ive found outliers - now what?**
+**I’ve found outliers - now what?**
 
-**Whats the fastest way to spot outliers?**
+**Whats the fastest way to spot outliers?** Initial EDA likely shows these with histograms, pair-wise plots, boxplots
    
    
 
